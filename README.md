@@ -1,10 +1,10 @@
-# Implementing Cisco Enterprise Network Core Technologies v1.1 (350-401)
+## Implementing Cisco Enterprise Network Core Technologies v1.1 (350-401)
 
-## 1.0 Architecture (15%)
+# 1.0 Architecture (15%)
 
-### 1.1 Explain the different design principles used in an enterprise network
-1. High-level enterprise network design such as 2-tier, 3-tier, fabric, and cloud
-2. High availability techniques such as redundancy, FHRP, and SSO
+## 1.1 Explain the different design principles used in an enterprise network
+**a. High-level enterprise network design such as 2-tier, 3-tier, fabric, and cloud**\
+**b. High availability techniques such as redundancy, FHRP, and SSO**
 
 ### a. High-Level Enterprise Network Design
 
@@ -45,11 +45,11 @@
 
 These principles and techniques are foundational in designing enterprise networks that are resilient, scalable, and efficient. They cater to the need for constant uptime, performance, and the ability to grow or adapt to new technologies or business needs.
 
-### 1.2 Describe wireless network design principles
-1. Wireless deployment models (centralized, distributed, controller-less,
-controller-based, cloud, remote branch)
-2. Location services in a WLAN design
-3. Client density
+## 1.2 Describe wireless network design principles
+**a. Wireless deployment models (centralized, distributed, controller-less,
+controller-based, cloud, remote branch)**\
+**b. Location services in a WLAN design**\
+**c. Client density**
 
 Here are the wireless network design principles based on your query:
 
@@ -107,9 +107,9 @@ Here are the wireless network design principles based on your query:
 
 When designing for client density, it's crucial to perform predictive site surveys, actual testing, and possibly post-deployment optimization to cater to the dynamic nature of wireless environments.
 
-### 1.3 Explain the working principles of the Cisco SD-WAN solution
-1. SD-WAN control and data planes elements
-2. Benefits and limitations of SD-WAN solutions
+## 1.3 Explain the working principles of the Cisco SD-WAN solution
+**a. SD-WAN control and data planes elements**\
+**b. Benefits and limitations of SD-WAN solutions**
 
 **a. SD-WAN Control and Data Planes Elements**
 
@@ -161,9 +161,9 @@ Cisco's SD-WAN solution, like many SD-WAN technologies, separates the network in
 
 Remember, while SD-WAN solutions like Cisco's offer significant advantages, the choice to implement them should consider both the immediate network requirements and long-term IT strategy.
 
-###  1.4 Explain the working principles of the Cisco SD-Access solution
-1. SD-Access control and data planes elements
-2. Traditional campus interoperating with SD-Access
+##  1.4 Explain the working principles of the Cisco SD-Access solution
+**a. SD-Access control and data planes elements**\
+**b. Traditional campus interoperating with SD-Access**
 
 Cisco's Software-Defined Access (SD-Access) is a central part of Cisco's Digital Network Architecture (DNA), providing automated, policy-based, network segmentation and management for both wired and wireless networks. Here's how it works:
 
@@ -200,9 +200,9 @@ When integrating traditional campus networks with SD-Access:
 
 The interoperability ensures that businesses can transition to SD-Access without a complete network overhaul, allowing legacy systems to coexist with advanced SDN features until a full migration can be completed or justified. This design supports a gradual adoption strategy, reducing risk and allowing network teams to gain confidence in the new system.
 
-### 1.5 Interpret wired and wireless QoS configurations
-1. QoS components
-2. QoS policy
+## 1.5 Interpret wired and wireless QoS configurations
+**a. QoS components**\
+**b. QoS policy**
 
 To interpret wired and wireless Quality of Service (QoS) configurations, let's break down the components and policies:
 
@@ -261,7 +261,7 @@ When implementing QoS in both wired and wireless environments, consider:
 
 Remember, while the principles of QoS are similar for wired and wireless networks, the implementation can differ significantly due to the inherent characteristics of each medium, like signal strength, interference, and mobility in wireless networks.
 
-###  1.6 Describe hardware and software switching mechanisms such as CEF, CAM, TCAM, FIB, RIB, and adjacency tables
+##  1.6 Describe hardware and software switching mechanisms such as CEF, CAM, TCAM, FIB, RIB, and adjacency tables
 
 Here's an overview of the key hardware and software switching mechanisms you've asked about:
 
@@ -302,11 +302,11 @@ Here's an overview of the key hardware and software switching mechanisms you've 
 
 These mechanisms work together to ensure efficient, fast, and accurate packet switching and routing within network devices, balancing between hardware capabilities for speed and software for flexibility.
 
-## 2.0 Virtualization (10%)
-### 2.1 Describe device virtualization technologies
-1. Hypervisor type 1 and 2
-2. Virtual machine
-3. Virtual switching
+# 2.0 Virtualization (10%)
+## 2.1 Describe device virtualization technologies
+**a. Hypervisor type 1 and 2**\
+**b. Virtual machine**\
+**c. Virtual switching**
 
 Here's an overview of device virtualization technologies:
 
@@ -351,9 +351,9 @@ Here's an overview of device virtualization technologies:
 
 Each of these technologies contributes to the flexibility, efficiency, and manageability of computing environments, particularly in cloud computing and enterprise data centers where scalability and resource optimization are paramount.
 
-### 2.2 Configure and verify data path virtualization technologies
-1. VRF
-2. GRE and IPsec tunneling
+## 2.2 Configure and verify data path virtualization technologies
+**q. VRF**\
+**b. GRE and IPsec tunneling**
 
 Here's a basic guide on configuring and verifying Virtual Routing and Forwarding (VRF), as well as GRE and IPsec tunneling, tailored for someone studying for the Cisco CCNP exam:
 
@@ -483,9 +483,9 @@ Here's a basic guide on configuring and verifying Virtual Routing and Forwarding
 
 Remember, these configurations might need adjustments based on the specific requirements of your network or exam scenario. Also, always ensure you have the appropriate security measures in place when configuring tunnels and VPNs, especially in a real-world setting.
 
-### 2.3 Describe network virtualization concepts
-1. LISP
-2. VXLAN
+## 2.3 Describe network virtualization concepts
+**a. LISP**\
+**b. VXLAN**
 
 Here's a brief description of the network virtualization concepts you've asked about:
 
@@ -521,12 +521,11 @@ Here's a brief description of the network virtualization concepts you've asked a
 
 Both technologies aim to improve network flexibility and scalability but do so in different layers of the networking stack and with different focuses; LISP focuses more on routing scalability and endpoint mobility across larger scales, while VXLAN is particularly useful for overlay networks within and between data centers.
 
-## 3.0 Infrastructure (30%)
-### 3.1 Layer 2
-1. Troubleshoot static and dynamic 802.1q trunking protocols
-2. Troubleshoot static and dynamic EtherChannels
-3. Configure and verify common Spanning Tree Protocols (RSTP, MST) and
-Spanning Tree enhancements such as root guard and BPDU guard
+# 3.0 Infrastructure (30%)
+## 3.1 Layer 2
+**a. Troubleshoot static and dynamic 802.1q trunking protocols**\
+**b. Troubleshoot static and dynamic EtherChannels**\
+**c. Configure and verify common Spanning Tree Protocols (RSTP, MST) and Spanning Tree enhancements such as root guard and BPDU guard**
 
 Here's how you can approach each of these topics in the context of the Cisco CCNP exam:
 
@@ -649,15 +648,11 @@ Here's how you can approach each of these topics in the context of the Cisco CCN
 
 Each of these steps involves not only setting up the configurations but also understanding the outputs of verification commands to troubleshoot issues. Always ensure compatibility and consistency across the network devices for these protocols to work effectively.
 
-### 3.2 Layer 3
-1. Compare routing concepts of EIGRP and OSPF (advanced distance vector vs. link
-state, load balancing, path selection, path operations, metrics, and area types)
-2. Configure simple OSPFv2/v3 environments, including multiple normal areas,
-summarization, and filtering (neighbor adjacency, point-to-point, and broadcast
-network types, and passive-interface)
-3. Configure and verify eBGP between directly connected neighbors (best path
-selection algorithm and neighbor relationships)
-4. Describe policy-based routing
+## 3.2 Layer 3
+**a. Compare routing concepts of EIGRP and OSPF (advanced distance vector vs. link state, load balancing, path selection, path operations, metrics, and area types)**\
+**b. Configure simple OSPFv2/v3 environments, including multiple normal areas, summarization, and filtering (neighbor adjacency, point-to-point, and broadcast network types, and passive-interface)**\
+**c. Configure and verify eBGP between directly connected neighbors (best path selection algorithm and neighbor relationships)**\
+**d. Describe policy-based routing**
 
 Here's a comparison between EIGRP (Enhanced Interior Gateway Routing Protocol) and OSPF (Open Shortest Path First) as they relate to the concepts listed, particularly in the context of the Cisco CCNP (Cisco Certified Network Professional) exam:
 
@@ -939,16 +934,13 @@ Policy-based routing (PBR) is a technique used in networking to make routing dec
 
 Understanding and correctly implementing PBR is crucial for CCNP candidates, as it demonstrates an ability to optimize and customize network traffic flow beyond basic routing protocols.
 
-### 3.3 Wireless
-1. Describe Layer 1 concepts, such as RF power, RSSI, SNR, interference, noise,
-bands, channels, and wireless client devices capabilities
-2. Describe AP modes and antenna types
-3. Describe access point discovery and join process (discovery algorithms, WLC
-selection process)
-4. Describe the main principles and use cases for Layer 2 and Layer 3 roaming
-5. Troubleshoot WLAN configuration and wireless client connectivity issues using
-GUI only
-6. Describe wireless segmentation with groups, profiles, and tags
+## 3.3 Wireless
+**a. Describe Layer 1 concepts, such as RF power, RSSI, SNR, interference, noise, bands, channels, and wireless client devices capabilities**\
+**b. Describe AP modes and antenna types**\
+**c. Describe access point discovery and join process (discovery algorithms, WLC selection process)**\
+**d. Describe the main principles and use cases for Layer 2 and Layer 3 roaming**\
+**e. Troubleshoot WLAN configuration and wireless client connectivity issues using GUI only**\
+**f. Describe wireless segmentation with groups, profiles, and tags**
 
 Here is an overview of Layer 1 concepts in wireless networking, particularly relevant to the Cisco Certified Network Professional (CCNP) exam:
 
